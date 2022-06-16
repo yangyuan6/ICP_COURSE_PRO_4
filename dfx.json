@@ -1,19 +1,19 @@
 {
   "canisters": {
-    "ICP_COURSE_PRO_4": {
-      "main": "src/ICP_COURSE_PRO_4/main.mo",
+    "icp_course_H_4": {
+      "main": "src/icp_course_H_4/main.mo",
       "type": "motoko"
     },
-    "ICP_COURSE_PRO_4_assets": {
+    "icp_course_H_4_assets": {
       "dependencies": [
-        "ICP_COURSE_PRO_4"
+        "icp_course_H_4"
       ],
       "frontend": {
-        "entrypoint": "src/ICP_COURSE_PRO_4_assets/src/index.html"
+        "entrypoint": "src/icp_course_H_4_assets/src/index.html"
       },
       "source": [
-        "src/ICP_COURSE_PRO_4_assets/assets",
-        "dist/ICP_COURSE_PRO_4_assets/"
+        "src/icp_course_H_4_assets/assets",
+        "dist/icp_course_H_4_assets/"
       ],
       "type": "assets"
     }
@@ -21,10 +21,10 @@
   "defaults": {
     "build": {
       "args": "",
-      "packtool": ""
+      "packtool": "vessel sources"
     }
   },
-  "dfx": "0.8.4",
+  "dfx": "0.9.3",
   "networks": {
     "local": {
       "bind": "127.0.0.1:8000",
